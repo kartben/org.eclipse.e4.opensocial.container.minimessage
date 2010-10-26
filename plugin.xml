@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.e4.opensocial.container.features">
+      <feature
+            name="minimessage"
+            version="1.0">
+        <dependsOn
+              feature="core">
+        </dependsOn>
+        <script
+              source="js/minimessage/minimessage.js">
+        </script>
+        <browserRPCHandler
+              class="org.eclipse.e4.opensocial.container.minimessage.internal.CreateMiniMessageHandler"
+              name="e4.opensocial.minimessage.createMiniMessage">
+        </browserRPCHandler>
+      </feature>
+   </extension>
+
+</plugin>

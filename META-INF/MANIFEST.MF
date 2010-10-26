@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Minimessage
+Bundle-SymbolicName: org.eclipse.e4.opensocial.container.minimessage;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.mylyn.commons.ui;bundle-version="3.4.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.eclipse.e4.opensocial.container,
+ org.eclipse.e4.ui.web
