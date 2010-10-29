@@ -26,7 +26,7 @@ gadgets.MiniMessage = function(opt_moduleId, opt_container) {
  */
 gadgets.MiniMessage.prototype.createDismissibleMessage = function(message,
 		opt_callback) {
-	e4RPC('createMiniMessage', message, opt_callback.toString());
+	e4RPC('e4.opensocial.minimessage.createMiniMessage', message, opt_callback.toString());
 	// TODO this is probably against the spec to return null
 	return null;
 };
